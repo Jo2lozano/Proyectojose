@@ -13,9 +13,9 @@ public class ProjectInitialController {
     
 
     @GetMapping("/Person")
-    public ResponseEntity<String>testInitial (){
+    public ResponseEntity<Boolean>testInitial (){
         log.info("here out");
-        return ResponseEntity.ok("succesful");
+        return ResponseEntity.ok(true);
     }
 
 }
